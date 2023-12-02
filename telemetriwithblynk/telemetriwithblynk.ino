@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL6Fab7JT45"
+#define BLYNK_TEMPLATE_ID ""
 #define BLYNK_TEMPLATE_NAME "Quickstart Template"
-#define BLYNK_AUTH_TOKEN "XAnHt5t_9fYv44Zt5a43j4npXK40hEiV"
+#define BLYNK_AUTH_TOKEN ""
 #include <SPI.h>
 #include <nRF24L01.h>
 #include <RF24.h>
