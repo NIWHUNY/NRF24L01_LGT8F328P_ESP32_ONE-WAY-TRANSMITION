@@ -23,10 +23,10 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 // ThingsBoard Settings
 #define CURRENT_FIRMWARE_TITLE    "TEST"
 #define CURRENT_FIRMWARE_VERSION  "1.0.0"
-#define TOKEN               "QAnFPbg4XhyxwYUryI0c" //Masukkan Token TB 
+#define TOKEN               "" //Masukkan Token TB 
 #define THINGSBOARD_SERVER  "thingsboard.cloud"
-const char* WIFI_SSID = "airi"; //Masukkan SSID WiFI
-const char* WIFI_PASSWORD = "12345678"; //Masukkan Password WiFi
+const char* WIFI_SSID = ""; //Masukkan SSID WiFI
+const char* WIFI_PASSWORD = ""; //Masukkan Password WiFi
 constexpr uint16_t MAX_MESSAGE_SIZE = 128U;
 
 
