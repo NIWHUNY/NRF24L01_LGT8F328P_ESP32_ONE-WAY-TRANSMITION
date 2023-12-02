@@ -10,8 +10,8 @@
 #include <BlynkSimpleEsp32.h>
 
 // Add your Wi-Fi credentials here
-#define WIFI_SSID "airi"
-#define WIFI_PASS "12345678"
+#define WIFI_SSID ""
+#define WIFI_PASS ""
 
 RF24 radio(4, 5); // CE, CSN
 const byte address[6] = "00001";
