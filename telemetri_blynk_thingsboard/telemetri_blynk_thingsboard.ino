@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL6Fab7JT45"
-#define BLYNK_TEMPLATE_NAME "Quickstart Template"
-#define BLYNK_AUTH_TOKEN "XAnHt5t_9fYv44Zt5a43j4npXK40hEiV"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
+#define BLYNK_AUTH_TOKEN ""
 #include <SPI.h>
 #include <nRF24L01.h>
 #include <RF24.h>
@@ -29,10 +29,10 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 #define WIFI_PASS2 "12345678"
 #define CURRENT_FIRMWARE_TITLE    "TEST"
 #define CURRENT_FIRMWARE_VERSION  "1.0.0"
-#define TOKEN               "QAnFPbg4XhyxwYUryI0c" //Masukkan Token TB 
+#define TOKEN               "" //Masukkan Token TB 
 #define THINGSBOARD_SERVER  "thingsboard.cloud"
-const char* WIFI_SSID = "airi"; //Masukkan SSID WiFI
-const char* WIFI_PASSWORD = "12345678"; //Masukkan Password WiFi
+const char* WIFI_SSID = ""; //Masukkan SSID WiFI
+const char* WIFI_PASSWORD = ""; //Masukkan Password WiFi
 constexpr uint16_t MAX_MESSAGE_SIZE = 128U;
 
 WiFiClient espClient;
